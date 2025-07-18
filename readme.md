@@ -7,11 +7,11 @@ You will find original, well-commented code, benchmarking tools, and a detailed 
 
 ### 1. Sorting Algorithms
 
-- **`randomized_quicksort.py`**  
+- **`randomizedQuicksort.py`**  
   Implements Randomized Quicksort (recursive, picks a random pivot each time).  
   Extensively commented to help you learn how it works.
 
-- **`deterministic_quicksort.py`**  
+- **`deterministicQuicksort.py`**  
   Implements Deterministic Quicksort (always uses the first element as pivot).  
   Demonstrates worst-case behavior on sorted/reverse data.
 
@@ -28,17 +28,17 @@ You will find original, well-commented code, benchmarking tools, and a detailed 
 
 ### 3. Hash Table
 
-- **`hash_table.py`**  
+- **`hashtable.py`**  
   Implements a hash table with chaining (buckets are lists).  
   Supports `insert`, `search`, and `delete` operations.
 
-- **`hash_table_demo.py`**  
+- **`hashTableDemo.py`**  
   Demonstrates basic hash table usage, including insertion, update, lookup, and deletion.  
   Prints results so you can see everything works as expected.
 
 ### 4. Documentation
 
-- **`report.docx` or `report.pdf`**  
+- **`report.docx`**  
   Contains the full written analysis, code explanations, discussion of theoretical vs. practical results, screenshots, and APA references.  
   **Be sure to open/read this file for the full story behind the code!**
 
@@ -56,7 +56,7 @@ If you see a "RecursionError" for deterministic quicksort, this is expected for 
 3. **Test hash table operations:**
 
    ```bash
-   python3 hash_table_demo.py
+   python3 hashTableDemo.py
    ```
    This will print the results of insertion, updating, lookup, and deletion in the hash table.
 
